@@ -17,6 +17,7 @@ import gallery2 from './assets/gallery-2.jpg';
 import gallery3 from './assets/gallery-3.jpg';
 import gallery4 from './assets/gallery-4.jpg';
 import gallery5 from './assets/gallery-5.jpg';
+import gallery6 from './assets/gallery-6.jpg';
 
 import offer1 from './assets/offer-1.jpg';
 import offer2 from './assets/offer-2.jpg';
@@ -171,6 +172,11 @@ export const gallery = [
   {
     id: 5,
     img: gallery5,
+    title: 'Cappuccino Arabica',
+  },
+  {
+    id: 6,
+    img: gallery6,
     title: 'Cappuccino Arabica',
   },
 ];
