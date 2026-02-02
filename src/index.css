@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        @apply bg-stone-50 text-stone-800 font-sans antialiased;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-serif;
+    }
+}
+
+.coffee-gradient {
+    background: linear-gradient(135deg, #2c1a16 0%, #3e2723 100%);
+}
+
+.text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-amber-700 to-amber-900;
+}
